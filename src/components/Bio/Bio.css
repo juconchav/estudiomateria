@@ -1,0 +1,45 @@
+
+.about {
+  padding-bottom: 25px;
+}
+
+.titleAbout {
+  font-family: Lato;
+  position: relative;
+  margin: 25px 0 25px 0;
+  font-size: 2.3em;
+  text-align: center;
+  letter-spacing: 7px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 15px;
+}
+
+.container > div {
+  background-color: #FFFFFF;
+  padding: 40px;
+  font-size: 1rem;
+  text-align: left;
+  font-family: Lato;
+  border: none;
+  display: flex; /* flexbox dentro de cada 'div' */
+  flex-direction: column; /* Apila los elementos verticalmente (imagen arriba, texto abajo) */
+  align-items: center; /* Centra horizontalmente el contenido (imagen y texto) */
+  justify-content: center; /* Centra verticalmente el contenido */
+}
+
+/* Media Query para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+  .container {
+      grid-template-columns: 1fr; /* Una sola columna para móviles, ocupa todo el ancho */
+  }
+
+  .container > div {
+      padding: 15px; 
+      font-size: 1.1rem;
+      font-weight: 200;
+  }
+}

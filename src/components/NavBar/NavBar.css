@@ -1,0 +1,73 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Lato;
+}
+
+
+.navbar a:hover {
+  color: #943DFF;
+  font-weight: bold;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.navbar ul {
+  list-style: none; /* Elimina los puntos predeterminados de la lista */
+  padding: 0; /* Elimina el relleno predeterminado de la lista */
+  margin: 0; /* Elimina el margen predeterminado de la lista */
+  display: flex; /* Convierte los elementos de la lista en elementos flexibles, colocándolos horizontalmente */
+  justify-content: center; 
+  align-items: center; /* Centra verticalmente los elementos si la barra de navegación */
+  width: 100%; /* Asegura que la lista ocupe todo el ancho disponible */
+}
+
+.navbar ul li {
+  margin: 0 15px; /* Agrega un espacio horizontal entre cada elemento de la lista */
+}
+
+.navbar ul li a {
+  text-decoration: none; /* Elimina el subrayado de los enlaces */
+  color: #232323; /* Define un color para los enlaces (ajusta a tu gusto) */
+  font-weight: bold; /* Opcional: Hace el texto más negrita */
+}
+
+/* Opcional: Estilos para la barra de navegación completa si lo necesitas */
+.navbar {
+  display: flex; /* Para que el logo y la lista se alineen horizontalmente */
+  justify-content: space-between; /* Para que el logo esté a un lado y la lista al otro */
+  align-items: center; /* Centra verticalmente el contenido */
+  padding: 10px 20px; /* Relleno interno de la barra de navegación */
+  background-color: #EADDF3FF; /* Color de fondo de la barra de navegación */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil para la barra */
+  height: 100px;
+}
+
+.carrito {
+    position: relative;
+  }
+
+.badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #ee7787;
+    color: white;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 50%;
+    transform: translate(50%, -50%);
+  }

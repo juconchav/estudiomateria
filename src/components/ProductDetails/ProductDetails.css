@@ -1,0 +1,31 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 15px;
+  }
+  
+  .container > div {
+    background-color: #ffffff;
+    padding: 40px;
+    font-size: 1rem;
+    text-align: center;
+    font-family: Lato;
+    border: none;
+    display: flex; /* flexbox dentro de cada 'div' */
+    flex-direction: column; /* Apila los elementos verticalmente (imagen arriba, texto abajo) */
+    align-items: center; /* Centra horizontalmente el contenido (imagen y texto) */
+    justify-content: center; /* Centra verticalmente el contenido */
+  }
+  
+  .btnAdd {
+    background-color: lightgray;
+    color: #232323;
+    width: 60%;
+    margin-top: 10px;
+  }
+  
+  .btnAdd:hover{
+      background-color: #bc8af8;
+      color: #FFFFFF;
+      cursor: pointer;
+  }
