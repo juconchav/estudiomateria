@@ -1,3 +1,8 @@
+.titleDetail{
+  margin-top:25px;
+  margin-bottom:15px;
+}
+
 .container {
     display: grid;
     grid-template-columns: auto auto;
@@ -20,12 +25,19 @@
   .btnAdd {
     background-color: lightgray;
     color: #232323;
-    width: 60%;
-    margin-top: 10px;
+    width: 30%;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom:30px;
+    border: none;
   }
   
   .btnAdd:hover{
       background-color: #bc8af8;
       color: #FFFFFF;
       cursor: pointer;
+  }
+
+  .quantity-input{
+    width:100px;
   }
